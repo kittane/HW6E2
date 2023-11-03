@@ -29,8 +29,9 @@ class CrimeDetailFragment : Fragment() {
             UUID.randomUUID(),
             title = "",
             date = Date(),
-            isSolved = false
-
+            isSolved = false,
+            // This property determines if a crime is serious or not. Auto-defaults to false.
+            requiresPolice = false
         )
     }
 
